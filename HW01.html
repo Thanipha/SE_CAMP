@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework01</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            margin: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+          
+            padding: 10px;
+            text-align: left;
+        }
+        input[type="text"], input[type="date"], textarea, select, input[type="file"] {
+            width: calc(100% - 20px); 
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        button[type="reset"] {
+            background-color: #f44336;
+            margin-left: 150px;
+            margin-right: 100px;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <h1>Workshop #HTML-FORM</h1>
+    <form action="#">
+        <table>
+            <tr>
+                <td>ชื่อ</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>สกุล</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>วัน/เดือน/ปีเกิด</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>อายุ</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>เพศ</td>
+                <td><input 
+                    id="male"
+                    type="radio"
+                    name = "same-radio"/>
+                    <label for="male">ชาย</label>
+                    <input 
+                    id="female"
+                    type="radio"
+                    name = "same-radio"/>
+                    <label for="female">หญิง</label>
+                </td>
+            </tr>
+            <tr>
+                <td>รูป</td>
+                <td><input type="file" name="image"></td>
+            </tr>
+            <tr>
+                <td>ที่อยู่</td>
+                <td><textarea rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td>สีที่ชอบ</td>
+                <td>
+                    <select>
+                        <option 
+                        disabled
+                        selected>ระบุ</option>
+                        <option>สีแดง</option>
+                        <option>สีเหลือง</option>
+                        <option>สีน้ำเงิน</option>
+                        <option>สีเขียว</option>
+                        <option>สีม่วง</option>
+                        <option>สีดำ</option>
+                        <option>สีขาว</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>แนวเพลงที่ชอบ</td>
+                <td><input 
+                    id="song1"
+                    type="radio"
+                    name = "same_radio"/>
+                    <label for="song1">เพื่อชีวิต</label>
+                    <input 
+                    id="song2"
+                    type="radio"
+                    name = "same_radio"/>
+                    <label for="song2">ลูกทุ่ง</label>
+                    <input 
+                    id="song3"
+                    type="radio"
+                    name = "same_radio"/>
+                    <label for="song3">อื่นๆ</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    <input id="ok"
+                    type="checkbox"
+                    name="check"/>
+                    <label for="of">ยินยอมให้เก็บข้อมูล</label></td>
+            </tr>
+        </table>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>           
+    </form>
+</body>
+</html>
