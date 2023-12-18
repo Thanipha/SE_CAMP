@@ -31,10 +31,17 @@ h1{
     font-family: itim,cursive;
     box-shadow: 10px 10px 10px 10px skyblue;
 }
+
 p.normal {
     font-style: normal;
     font-weight: bold;
 }
+
+.normal.font16{
+    font-size: 16pt;
+    font-style: normal;
+    font-weight: bold;
+} 
 
 p.italic {
     font-style: italic;
