@@ -1,0 +1,72 @@
+.box{
+    width: 400px;
+    height: 400px;
+    color: rgb(33,33,33);
+    background-color: rgb(114, 143, 206);
+    text-align: center;
+    margin: 50px 25px;
+    line-height: 400px;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.box:hover{
+    background-size: cover;
+    background-image: url("https://thelatch.com.au/wp-content/uploads/2022/10/Ginzan-Onsen.jpg");
+    color: transparent;
+    box-shadow: 10px 10px 10px skyblue;
+}
+
+body{
+    font-family: itim,cursive;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;
+    justify-content: center;*/
+    height: auto;
+    width: auto;
+    margin: 0;
+   background-color: aliceblue;
+    background-size: cover;
+
+}
+h1{
+    font-family: itim,cursive;
+   
+}
+
+p.normal {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.normal.font16{
+    font-size: 16pt;
+    font-style: normal;
+    font-weight: bold;
+} 
+
+p.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+div > div > p{
+    font-size: large;
+    font-weight: bold;
+}
+
+div > p{
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.box2{
+    position: relative;
+    left: 0px;
+    border: 3px solid #73AD21;
+
+}
+div + p{
+    background-color: yellow;
+}
