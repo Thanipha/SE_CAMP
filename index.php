@@ -56,14 +56,13 @@
     <br>
     <?php 
     echo $var_c ;
-    
+
     switch($var_c){
         case 1:
             echo "1";
             break;
         default:
             echo "test";
-            <br>
     }
     $arry = array();
     $arry1 = [];
