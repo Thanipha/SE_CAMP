@@ -35,5 +35,19 @@
         <p>3</p>
     </div>
     <h1><?php echo 'Hello World';?></h1>
+    <br>
+    <?php 
+    $var_c = $var_b = 1;
+    $var_c = '1';
+    if($var_b === $var_c){
+        //true
+        echo '$var_b === $var_c';
+    }else if($var_b <> $var_c){
+        //true
+        echo '$var_b <> $var_c';
+    }else{
+        //false
+        echo 'else';
+    }?>
 </body>
 </html>
