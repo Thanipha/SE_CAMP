@@ -70,14 +70,14 @@
     $arry2[] = 3;
     $arry2[] = "Hello";
     $arry2['SE'] = "World";
-    
+
     ?><?php print_r($arry);?>                               
     <pre><?php print_r($arry);?></pre>
     <pre><?php print_r($arry1);?></pre>
     <pre><?php print_r($arry2);?></pre>
 
     <?php for($i = 0; $i <count($arry2);$i++){ ?>
-    <h3><?php echo $arry2[$i];?></h3>
+    <h3><?php echo $arry2[$i]; หิวข้าวจัง?></h3>
     <?php } ?>
 
     <?php foreach($arry2 as $key => $value){ ?>
