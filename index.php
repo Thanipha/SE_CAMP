@@ -56,7 +56,7 @@
     <br>
     <?php 
     echo $var_c ;
-    <br>
+    
     switch($var_c){
         case 1:
             echo "1";
