@@ -63,9 +63,9 @@
     }
     $arry = array();
     $arry1 = [];
-    $arry2[] = 1
-    $arry2[] = 2
-    $arry2[] = 3
+    $arry2[] = 1;
+    $arry2[] = 2;
+    $arry2[] = 3;
     
     ?>
     <pre><?php print_r($arry);?></pre>
