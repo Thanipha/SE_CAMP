@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DOC</title>
 </head>
 <body>
     <h1>This is PHP <?php echo 'Hello World!'; ?></h1>
@@ -26,7 +26,7 @@
         // sizeof
         for($i=0; $i < count($arry); $i++)
         {
-            echo "<h1>my h1</h1>";
+            echo "<h1>my h2</h1>";
             ?>
             <p>2</p>
             <?php
@@ -34,5 +34,6 @@
         ?>
         <p>3</p>
     </div>
+    <h1><?php echo 'Hello World';?></h1>
 </body>
 </html>
