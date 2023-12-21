@@ -49,7 +49,9 @@
         //false
         echo 'else';
     }?>
+    <br>
     <?php echo 'ฉันตายได้นะ แต่ยังไม่ตาย';?>
+    <br>
     <?php echo $var_c = 2;?>
     <br>
     <?php 
@@ -66,10 +68,18 @@
     $arry2[] = 1;
     $arry2[] = 2;
     $arry2[] = 3;
-    
+    $arry2[] = "Hello";
+    $arry2['SE'] = "World";
     ?>
     <pre><?php print_r($arry);?></pre>
     <pre><?php print_r($arry1);?></pre>
     <pre><?php print_r($arry2);?></pre>
+    <?php for($i = =; i <count($arry2);$i++){?>
+    <h3><?php echo $arry2[$1];?></h3>
+    <?php}?>
+
+    <?php foreach($arry2 as $key => $value){?>
+    <h3><?php echo $arry2[$key];?> : <?php echo $value ;?></h3>
+    <?php } ?>    
 </body>
 </html>
