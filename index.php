@@ -49,5 +49,27 @@
         //false
         echo 'else';
     }?>
+    <?php echo 'ฉันตายได้นะ แต่ยังไม่ตาย';?>
+    <?php echo $var_c = 2;?>
+    <br>
+    <?php 
+    echo $var_c ;
+    switch($var_c){
+        case 1:
+            echo "1";
+            break;
+        default:
+            echo "test";
+    }
+    $arry = array();
+    $arry1 = [];
+    $arry2[] = 1
+    $arry2[] = 2
+    $arry2[] = 3
+    
+    ?>
+    <pre><?php print_r($arry);?></pre>
+    <pre><?php print_r($arry1);?></pre>
+    <pre><?php print_r($arry2);?></pre>
 </body>
 </html>
