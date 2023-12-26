@@ -43,7 +43,7 @@
                 text-shadow: 3px 3px rgb(65, 32, 2);
             }
             body {
-                background: url('https://i.pinimg.com/564x/87/3a/4e/873a4ed70e0eaeb074c34c31958bfe07.jpg');
+                background: url('https://i.pinimg.com/564x/46/46/38/46463886f20d59b49471246012f45a79.jpg');
                 color:#ffffff;
                 display: flex;
                 justify-content: center;
