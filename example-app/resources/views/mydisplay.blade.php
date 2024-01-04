@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <style>
        body {
-            background: url('https://i.pinimg.com/564x/9d/1f/2e/9d1f2e441590c09d737125a61b5f5281.jpg');
+            background: url('https://i.pinimg.com/564x/0e/eb/22/0eeb2251003d1cfb9cdf8ac02ba4ee4f.jpg');
             background-size: cover;
             background-color: rgba(255, 255, 255, 10);
-            color: #ffffff;
+            color: #000000;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -39,7 +39,7 @@
         }
 
         th, td {
-            border: 1px solid #fff;
+            border: 1px solid #040404;
             padding: 10px;
         }
 
