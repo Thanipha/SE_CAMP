@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Http;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return 'hi';
 });
 
 Route::get('/my-route', function () {
@@ -29,5 +31,14 @@ Route::get('/my-route', function () {
 Route::post('/my-route',function(Request $req){
     $data['myinput'] = $req -> input('myinput');
     return view ('myroute',$data);
+});
+
+Route::get('/my-display', function () {
+    return view('myfolder.input');
+});
+
+Route::post('/my-display',function(Request $req) {
+    $data['myinputnumber'] = $req -> input('myinputnumber');
+    return view('mydisplay', $data);
 });
 
