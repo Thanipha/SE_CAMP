@@ -1,5 +1,10 @@
+{{--
+    Author: Thanipha Damrongsaktrakool
+    Sectoin : 2
+    ID : 65160325
+    DATE : 04/01/2024
+--}}
 <html>
-
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +27,6 @@
         body {
             font-family: 'Itim', sans-serif;
             background-color: #f0f0f0;
-            /* สีพื้นหลัง */
             margin: 0;
             display: flex;
             align-items: center;
@@ -47,7 +51,6 @@
         input[type="number"] {
             padding: 8px;
             border: 1px solid #ccc;
-            /* สีขอบของ input */
             border-radius: 5px;
         }
 

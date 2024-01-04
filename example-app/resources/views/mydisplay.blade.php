@@ -1,4 +1,9 @@
-
+{{--
+    Author: Thanipha Damrongsaktrakool
+    Sectoin : 2
+    ID : 65160325
+    DATE : 04/01/2024
+--}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,9 +29,9 @@
 
 
         h1 {
-            color: #054f15;
-            text-shadow: 3px 3px rgb(221, 58, 61);
-            font-size: 28px;
+            color: #000000;
+            text-shadow: 3px 3px rgb(121, 118, 118);
+            font-size: 34px;
             font-weight: bold;
         }
 
