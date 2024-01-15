@@ -168,7 +168,7 @@
             </div> <!-- /.content-header -->
             <!-- Main content -->
 
-            @yield('content','error')
+            @yield('content','mistake')
 
         <!-- /.content -->
         </div>
