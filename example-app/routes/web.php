@@ -3,6 +3,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MyController;
 use App\Http\Controllers\C_titles;
+use App\Model\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,7 @@ use App\Http\Controllers\C_titles;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+/*-------------------------------------------------15/01/2024------------------------------------------------------------------------*/
 Route::get('/my-controller', [MyController::class, 'index']);
 Route::get('/my-controller2', 'App\Http\Controllers\MyController@index');
 Route::namespace('App\Http\Controllers')->group(function(){
@@ -24,7 +25,21 @@ Route::namespace('App\Http\Controllers')->group(function(){
 Route::resource('/my-controller4', MyController::class);
 
 Route::resource('titles', C_titles::class);
+/*----------------------------------------------29/01/2024---------------------------------------------------------------------------*/
 
+Route::get('/login',[MyAuth::class, 'login_view'])->name('login');
+Route::get('/register',[MyAuth::class, 'register_view']);
+Route::get('/logout',[MyAuth::class, 'login_view']);
+Route::post('/login',[MyAuth::class, 'login_view']);
+Route::post('/register',[MyAuth::class, 'register_view']);
+
+
+Route::resource('titles', C_titles::class);
+Route::middleware('auth')->group(function(){
+    //auth first
+});
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
 
 
 Route::get('/', function () {
