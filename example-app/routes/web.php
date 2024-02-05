@@ -43,8 +43,8 @@ Route::middleware('auth')->group(function(){
 
 
 Route::get('/', function () {
-    // return view('welcome');
-    return 'hi';
+    return view('welcome');
+
 });
 
 Route::get('/my-route', function () {

@@ -51,3 +51,4 @@ class MyAuth extends Controller
         return Redirect::to('login');
     }
 }
+
