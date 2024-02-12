@@ -47,6 +47,11 @@ Route::get('/', function () {
 
 });
 
+Route::get('/HW7', function () {
+    return view('HW7');
+
+});
+
 Route::get('/my-route', function () {
     //echo "<h1> My Route Page</h1>";
     //return view('')
